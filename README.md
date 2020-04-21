@@ -1,1 +1,1 @@
-# Deep Learning Liu
+# Feedforward Networks for Handwritten Digit Recognition
