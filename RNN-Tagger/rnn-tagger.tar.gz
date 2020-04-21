@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov  5 13:30:07 2019
+
+@author: aminghazanfari
+"""
+
+import utils
+
+training_data = list(utils.read_training_data())
+print('Number of sentences in the training data: {}'.format(len(training_data)))
+
+development_data = list(utils.read_development_data())
+print('Number of sentences in the development data: {}'.format(len(development_data)))
+
+test_data = list(utils.read_test_data())
+print('Number of sentences in the test data: {}'.format(len(test_data)))
